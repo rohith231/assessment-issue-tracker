@@ -1,0 +1,22 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: '#ffffff',
+        foreground: '#000000',
+        primary: '#2563eb',
+        'primary-dark': '#1e40af',
+        secondary: '#64748b',
+        destructive: '#dc2626',
+        border: '#e2e8f0',
+        'card-bg': '#f8fafc',
+      },
+    },
+  },
+  plugins: [],
+  darkMode: 'class',
+}
